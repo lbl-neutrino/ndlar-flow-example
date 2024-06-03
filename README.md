@@ -13,5 +13,8 @@ cd ndlar-flow-example
 ## Usage
 
 ``` bash
-./run_ndlar_flow.sh path/to/larndsim_file.hdf5 path/to/ndlar_flow_output.hdf5
+./run_ndlar_flow.sh
 ```
+
+Optionally, an input file can be provided as a command-line argument. If not
+provided, a default input file will be used.
