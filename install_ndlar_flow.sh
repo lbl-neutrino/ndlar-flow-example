@@ -8,12 +8,12 @@ python -m venv ndlar_flow.venv
 source ndlar_flow.venv/bin/activate
 pip install --upgrade pip setuptools wheel
 
-git clone -b main https://github.com/larpix/h5flow.git
+git clone -b main https://github.com/lbl-neutrino/h5flow.git
 cd h5flow
 pip install -e .
 cd ..
 
-git clone -b develop https://github.com/larpix/ndlar_flow.git
+git clone -b develop https://github.com/DUNE/ndlar_flow.git
 cd ndlar_flow
 pip install -e .
 cd scripts/proto_nd_scripts
