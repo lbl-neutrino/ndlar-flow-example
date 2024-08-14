@@ -8,6 +8,8 @@ fi
 inFile=$(realpath "$1")
 outFile=$(realpath "$2")
 
+module unload python 2>/dev/null
+module load python/3.11
 source ndlar_flow.venv/bin/activate
 
 cd ndlar_flow
